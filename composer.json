@@ -1,0 +1,34 @@
+{
+  "name": "djmarland/isin",
+  "description": "A modern PHP Library for accessing https://openexchangerates.org/",
+  "type": "library",
+  "keywords": ["openexchangerates", "exchange rates", "currency", "open exchange rates"],
+  "homepage": "https://github.com/djmarland/openexchangerates",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Marland",
+      "email": "davidm@rland.me.uk",
+      "homepage": "http://rland.me.uk"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/djmarland/openexchangerates/issues",
+    "source": "https://github.com/djmarland/openexchangerates"
+  },
+  "require": {
+    "php": ">=7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.7|^5.0",
+    "squizlabs/php_codesniffer": "^2.3"
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {"Djmarland\\OpenExchangeRates\\": "src/OpenExchangeRates/"}
+  },
+  "autoload-dev": {
+    "psr-4": {"Djmarland\\OpenExchangeRates\\Test\\": "tests/src/OpenExchangeRates/"}
+  }
+}
